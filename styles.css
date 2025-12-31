@@ -72,7 +72,8 @@ nav a {
     transition: all 0.3s ease;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
     background-color: #D2691E;
     color: white;
 }
@@ -125,6 +126,17 @@ h2 {
     margin: 1rem auto;
     font-size: 1.1rem;
     line-height: 1.8;
+}
+
+.benefits {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.benefits p {
+    margin: 0.8rem 0;
+    font-size: 1.1rem;
 }
 
 /* Services Section */
@@ -202,6 +214,22 @@ footer {
     text-align: center;
     padding: 2rem 0;
     margin-top: 2rem;
+}
+
+/* Page Image Section */
+.page-image {
+    background-color: #fff;
+    padding: 2rem 0;
+}
+
+.feature-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Responsive Design */
